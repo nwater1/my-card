@@ -2,12 +2,9 @@
   <v-row justify="center" align="center">
     <v-main style="padding-bottom: 50px">
       <section id="main">
-        <div class="img"></div>
-        <v-row justify="center" align="center" style="height: 120px">
-          <a class="btn-1" href="https://lin.ee/Jqdw87d"
-            >เพิ่มเพื่อน เพื่อรับการแจ้งเตือนสวดมนต์</a
-          >
-        </v-row>
+        <a href="https://lin.ee/Jqdw87d">
+          <div class="img"></div>
+        </a>
       </section>
     </v-main>
   </v-row>
@@ -40,6 +37,7 @@ export default {
 a:link {
   color: #ffffff;
   text-decoration: none;
+  cursor: pointer;
 }
 .btn-1 {
   color: white;
@@ -56,17 +54,17 @@ a:link {
 }
 div.img {
   width: 100%;
-  height: 450px;
-  background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/bannup.jpg');
+  height: 500px;
+  background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/s-01com.jpg');
   background-size: 100% 100%;
   border: 1px solid black;
 }
 
 @media only screen and (min-device-width: 600px) {
   div.img {
-    background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg');
+    background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/14ban2com.png');
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-size: contain;
     border: 1px solid black;
   }
@@ -74,9 +72,9 @@ div.img {
 
 @media only screen and (min-device-width: 960px) {
   div.img {
-    background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg');
+    background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/14ban2com.png');
     max-width: 100%;
-    height: 600px;
+    height: 500px;
     background-size: contain;
     border: 1px solid black;
   }
