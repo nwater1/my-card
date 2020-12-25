@@ -24,7 +24,7 @@ export default {
         hid: 'og:url',
         property: 'og:url',
         content:
-          'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg',
+          'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/tumb.png',
       },
       {
         hid: 'og:title',
@@ -41,7 +41,7 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         content:
-          'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg',
+          'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/tumb.png',
       },
       { property: 'og:image:width', content: '740' },
       { property: 'og:image:height', content: '300' },

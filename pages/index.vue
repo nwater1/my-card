@@ -54,9 +54,9 @@ a:link {
 }
 div.img {
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/s-01com.jpg');
-  background-size: 100% 100%;
+  background-size: contain;
   border: 1px solid black;
 }
 
