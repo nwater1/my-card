@@ -9,7 +9,7 @@
     <v-footer
       class="justify-center"
       color="#292929"
-      height="50"
+      height="70"
       :absolute="!fixed"
       app
     >
