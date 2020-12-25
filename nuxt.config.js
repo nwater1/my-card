@@ -6,34 +6,36 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - ธรรมล้านดวง',
+    titleTemplate: 'ธรรมล้านดวง',
     title:
-      'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ กับ ธรรมล้านดวง',
+      'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
+        content:
+          'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
       },
       { property: 'og:site_name', content: 'I Love Painting' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg',
+        content:
+          'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg',
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'สวดมนต์ข้ามปีออนไลน์',
+        content: 'ธรรมล้านดวง',
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ กับ ธรรมล้านดวง',
+          'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
       },
       {
         hid: 'og:image',
