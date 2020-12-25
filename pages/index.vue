@@ -56,7 +56,7 @@ a:link {
 }
 div.img {
   width: 100%;
-  height: 600px;
+  height: 450px;
   background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/bannup.jpg');
   background-size: 100% 100%;
   border: 1px solid black;
@@ -64,7 +64,7 @@ div.img {
 
 @media only screen and (min-device-width: 600px) {
   div.img {
-    background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner3.jpg');
+    background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg');
     width: 100%;
     height: 600px;
     background-size: contain;
