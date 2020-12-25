@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
+    "@pivale/nuxt-image-loader-module": "^1.4.4",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "nuxt-responsive-loader": "^2.0.1",
