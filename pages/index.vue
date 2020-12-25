@@ -5,7 +5,7 @@
         <v-img
           max-height="1500"
           width="100%"
-          src="https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/bannup.jpg"
+          src="https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg"
         ></v-img>
         <v-row justify="center" align="center" style="height: 100px">
           <a class="btn-1" href="https://lin.ee/Jqdw87d"
