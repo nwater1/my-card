@@ -51,7 +51,7 @@ export default {
         rel: 'icon',
         type: 'image/x-icon',
         href:
-          'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/banner2.jpg',
+          'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/favicon-32x32.png',
       },
     ],
   },
