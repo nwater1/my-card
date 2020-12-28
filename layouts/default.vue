@@ -43,7 +43,7 @@ export default {
 .bg {
   background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/BG-01.png'); /* The image used */
 
-  height: 700px; /* You must set a specified height */
+  height: auto; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
