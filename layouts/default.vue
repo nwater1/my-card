@@ -17,6 +17,9 @@
         class="title font-weight-light grey--text text--lighten-1 text-center"
       >
         &copy; {{ new Date().getFullYear() }} Made with 💜 by ธรรมล้านดวง
+        <i class="fab fa-facebook-square"
+          ><a href="https://web.facebook.com/dhamma1000000"></a
+        ></i>
       </div>
     </v-footer>
   </v-app>
