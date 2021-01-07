@@ -6,9 +6,9 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: 'ธรรมล้านดวง',
+    titleTemplate: 'ธรรมล้านดวง | สวดมนต์ | สวดธรรมจักรพร้อมกัน 1 ล้านคน',
     title:
-      'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
+      'สวดมนต์ สวดมนต์ออนไลน์ สวดธรรมจักรพร้อมกัน 1 ล้านคน เวลา 20.00น. ที่เพจ ธรรมล้านดวง สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,7 +16,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
+          'สวดมนต์ สวดมนต์ออนไลน์ สวดธรรมจักรพร้อมกัน 1 ล้านคน เวลา 20.00น. ที่เพจ ธรรมล้านดวง สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
       },
       { property: 'og:site_name', content: 'I Love Painting' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
@@ -29,13 +29,13 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'ธรรมล้านดวง',
+        content: 'ธรรมล้านดวง | สวดมนต์ | สวดธรรมจักรพร้อมกัน 1 ล้านคน',
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'สวดมนต์ข้ามปีออนไลน์ ผ่าน 99 วัด 99 สิ่งศักดิ์สิทธิ์ สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
+          'สวดมนต์ สวดมนต์ออนไลน์ สวดธรรมจักรพร้อมกัน 1 ล้านคน เวลา 20.00น. ที่เพจ ธรรมล้านดวง สนใจเข้าร่วมกดเพิ่มเพื่อนเลย https://lin.ee/Jqdw87d',
       },
       {
         hid: 'og:image',
