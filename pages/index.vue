@@ -10,13 +10,20 @@
       </v-main>
     </v-row>
     <v-divider></v-divider>
-    <v-row justify="center" align="center">
-      <v-main style="padding-bottom: 0px; margin: 0 auto">
-        <section id="main">
-          <div class="detail"></div>
-        </section>
-      </v-main>
-    </v-row>
+    <vue-plyr :options="options">
+  <video
+    controls
+    crossorigin
+    playsinline
+    autoplay
+  >
+    <source
+      size="720"
+      src="../assets/fbvideo.mp4"
+      type="video/mp4"
+    />
+  </video>
+</vue-plyr>
   </div>
 </template>
 
