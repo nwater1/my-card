@@ -10,7 +10,8 @@
       </v-main>
     </v-row>
     <v-divider></v-divider>
-    <vue-plyr :options="options">
+    <v-row justify="center" align="center">
+     <vue-plyr :options="options">
   <video
     controls
     crossorigin
@@ -24,6 +25,8 @@
     />
   </video>
 </vue-plyr>
+    </v-row>
+    
   </div>
 </template>
 
