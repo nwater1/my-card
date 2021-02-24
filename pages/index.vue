@@ -10,7 +10,7 @@
       </v-main>
     </v-row>
     <v-divider></v-divider>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" class="video-container">
      <vue-plyr :options="options">
   <video
     controls
@@ -41,6 +41,10 @@ export default {
 </script>
 
 <style scoped>
+.video-container {
+   width: auto;
+    height: auto;
+}
 .btn {
   color: white;
   font-size: 20px;
