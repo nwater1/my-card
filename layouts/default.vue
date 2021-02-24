@@ -44,7 +44,7 @@ export default {
 </script>
 <style scoped>
 .bg {
-  background-image: url('https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/BG-01.png'); /* The image used */
+  background-color: #fff; /* The image used */
 
   height: auto; /* You must set a specified height */
   background-position: center; /* Center the image */
