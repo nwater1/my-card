@@ -46,6 +46,9 @@
 
 <script>
 export default {
+   middleware (ctx) {
+    ctx.$gtm.push({ event: 'ssr' })
+  },
   components: {
   },
 

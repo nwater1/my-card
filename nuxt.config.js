@@ -84,10 +84,18 @@ export default {
     '@nuxtjs/axios',
     'nuxt-responsive-loader',
     '@nuxtjs/google-analytics',
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'GTM-TNK7876',
+    pageTracking: true,
+  },
   googleAnalytics: {
     id: '{UA-186190763-1}',
   },
+  
+  
+
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
