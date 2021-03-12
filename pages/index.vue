@@ -1,16 +1,29 @@
 <template>
-  <div>
+  <div class="app">
+    <!--
     <v-row justify="center" align="center">
       <v-main style="padding-bottom: 30px">
         <section id="main">
-          <a href="https://lin.ee/Jqdw87d">
-            <div class="img"></div>
-          </a>
+          <LineButton  @click="addFriends"> <i class="fab fa-line" /> สนใจเพิ่มเพื่อนในไลน์ได้เลย</LineButton>
         </section>
       </v-main>
     </v-row>
-    <v-divider></v-divider>
-    <v-row justify="center" align="center" class="video-container">
+    -->
+    <v-row class="banner" justify="center" align="center">
+      <v-img
+      :aspect-ratio="16/9"
+  max-width="1000"
+  :src="require(`~/assets/ban-dhamma.jpg`)"
+></v-img>
+    </v-row>
+    <v-row justify="center" align="center" style="margin-bottom: 50px">
+      <div class="btn-1">
+      <a class="link" href="https://master.d3aq7s7yioenk7.amplifyapp.com/">
+        <i class="fab fa-line" /> สนใจเพิ่มเพื่อนในไลน์ได้เลย
+      </a>
+      </div>
+    </v-row>
+    <!--<v-row justify="center" align="center" class="video-container">
      <vue-plyr :options="options">
   <video
     controls
@@ -26,17 +39,26 @@
   </video>
 </vue-plyr>
     </v-row>
+  -->
     
   </div>
 </template>
 
 <script>
 export default {
-  components: {},
+  components: {
+  },
 
   data() {
     return {}
   },
+  methods: {
+    addFriend() {
+      // eslint-disable-next-line no-console
+      console.log('hello')
+      // window.open('https://master.d3aq7s7yioenk7.amplifyapp.com/')
+    }
+  }
 }
 </script>
 
@@ -44,6 +66,9 @@ export default {
 .video-container {
    width: auto;
     height: auto;
+}
+.banner {
+  margin-bottom: 50px;
 }
 .btn {
   color: white;
@@ -53,28 +78,52 @@ export default {
   cursor: pointer;
 
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
   width: 100%;
   height: 100%;
   background-color: #00c300;
 }
-a:link {
+.link:link {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
+.link:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.link:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .btn-1 {
-  color: white;
+  color: #00c300;
   font-size: 22px;
   padding: 16px 24px;
   border: none;
   cursor: pointer;
   display: block;
   text-align: center;
-  margin-top: 30px;
-  width: 60%;
-  height: 100%;
+  margin-top: 0px;
+  width: 250px;
+  height: 110px;
   background-color: #00c300;
+  border-radius: 40px;
+}
+
+.btn-1:hover {
+  color: #FFF;
+  background-color: #00e000;
+}
+
+.btn-1:focus {
+  outline: none;
+  background:  #00b300;
 }
 div.img {
   width: 100%;
