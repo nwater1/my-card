@@ -54,6 +54,9 @@ export default {
           'https://new-year-card-1.s3-ap-southeast-1.amazonaws.com/favicon-32x32.png',
       },
     ],
+    script: [
+      { src: '/js/fb-sdk.js' }
+     ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
